@@ -54,7 +54,7 @@ As you're working through the exercise and implementing your solutions, be think
 
 ### Field Validation
   - Learn more about validating container IDs here: [https://www.bic-code.org/identification-number/](https://www.bic-code.org/identification-number/)
-  - Learn more about [carrier SCACs (Standard Carrier Alpha Code](https://en.wikipedia.org/wiki/Standard_Carrier_Alpha_Code#:~:text=The%20Standard%20Carrier%20Alpha%20Code%20(SCAC)%20is%20a%20privately%20controlled,companies%20computerize%20data%20and%20records).
+  - Learn more about [carrier SCACs (Standard Carrier Alpha Code)](https://en.wikipedia.org/wiki/Standard_Carrier_Alpha_Code#:~:text=The%20Standard%20Carrier%20Alpha%20Code%20(SCAC)%20is%20a%20privately%20controlled,companies%20computerize%20data%20and%20records).
 
 ## Above and Beyond!
 
