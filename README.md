@@ -2,7 +2,7 @@
 
 👋 Hi there! Welcome to the Vizion take-home coding exercise!
 
-This full-stack exercise involves building a form component in React that makes a request to the Node.js/Express backend. This should take no more than 4 hours to implement the feature, but we'll emphasize that there's no clock ticking on your implementation. Feel free to do this at your own pace, in your own time. If you decide to break it up over multiple coding sessions, that's fine too.
+This full-stack exercise involves building a form component in React that makes a request to the Node.js/Express backend. This should take no more than 4 hours to implement the feature, but we'll emphasize that there's no clock ticking on your implementation. Do this at your own working pace. If you decide to break it up over multiple coding sessions, that's fine too.
 
 Also keep in mind there is no upper bound on the time you spend on this project, so if you'd like to use this as an opportunity to learn a new library or technology, or just make the project better in general you should definitely feel free to do so!
 
@@ -41,7 +41,7 @@ Below is a list of user stories outlining the project's acceptance criteria.
 
 1. I can click a button/link either above or below the list of shipments that says 'Create Shipment'.
 
-1. Clicking the 'Create Shipment' button displays a form that allows a user to fill out all of my shipment information according to the data model (see `backend/model.js`).
+1. Clicking the 'Create Shipment' button displays a form that allows a user to fill out all of my shipment information according to the data model (see `backend/models.js`).
 
 1. Filling out the form will create a new shipment in the database, the UI will show the refreshed list and that list persists on page reload.
 
