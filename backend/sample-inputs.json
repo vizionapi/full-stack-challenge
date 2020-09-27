@@ -1,0 +1,66 @@
+[
+    {
+        "containerId": "TLLU2414500",
+        "carrierScac": "SAFM"
+    },
+    {
+        "containerId": "SEGU2918885",
+        "carrierScac": "COSU"
+    },
+    {
+        "containerId": "CAIU3489540",
+        "carrierScac": "COSU"
+    },
+    {
+        "containerId": "MEDU3241072",
+        "carrierScac": "MEDU"
+    },
+    {
+        "containerId": "MRKU5348163",
+        "carrierScac": "MAEU"
+    },
+    {
+        "containerId": "OOLU2931083",
+        "carrierScac": "COSU"
+    },
+    {
+        "containerId": "FCIU7441224",
+        "carrierScac": "HLCU"
+    },
+    {
+        "containerId": "HLBU2807948",
+        "carrierScac": "HLCU"
+    },
+    {
+        "containerId": "TCNU2475340",
+        "carrierScac": "MAEU"
+    },
+    {
+        "containerId": "MRKU4594497",
+        "carrierScac": "MAEU"
+    },
+    {
+        "containerId": "TCKU7220630",
+        "carrierScac": "ONEY"
+    },
+    {
+        "containerId": "BEAU5250550",
+        "carrierScac": "ONEY"
+    },
+    {
+        "containerId": "NYKU3622671",
+        "carrierScac": "ONEY"
+    },
+    {
+        "containerId": "TGBU5778633",
+        "carrierScac": "ZIMU"
+    },
+    {
+        "containerId": "ZCSU7091126",
+        "carrierScac": "ZIMU"
+    },
+    {
+        "containerId": "BSIU9782443",
+        "carrierScac": "ONEY"
+    }
+]
