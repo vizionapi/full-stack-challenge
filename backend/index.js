@@ -12,5 +12,5 @@ app.set("port", PORT || 5000);
 app.use("/api", routes);
 
 app.listen(app.get("port"), () => {
-    console.log(`🚀 Server is listening on port ${app.get("port")}`);
+  console.log(`🚀 Server is listening on port ${app.get("port")}`);
 });

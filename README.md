@@ -6,6 +6,14 @@ This full-stack exercise involves building a form component in React that makes 
 
 Also keep in mind there is no time limit on this project, so if you'd like to use this as an opportunity to learn a new library or technology, or just make the project better in general you should definitely feel free to do so!
 
+- [Vizion Engineering Take-Home Exercise](#vizion-engineering-take-home-exercise)
+  - [Setting Up](#setting-up)
+  - [Technical Notes](#technical-notes)
+  - [Minimum Project Requirements](#minimum-project-requirements)
+  - [Above and Beyond!](#above-and-beyond)
+    - [Bonus Feature Ideas:](#bonus-feature-ideas)
+  - [Submitting Your Work](#submitting-your-work)
+
 ## Setting Up
 
 This project requires you to have Node.js installed. We recommend the [active LTS release](https://nodejs.org/en/about/releases/).
@@ -37,7 +45,7 @@ Below is a list of user stories outlining the project's acceptance criteria.
 
 1. I can see shipment list items for all of the new shipments I've created.
 
-## Going Above and Beyond the Requirements
+## Above and Beyond!
 
 Given the time expectations of this exercise, we don't expect you to go all out, but if you find yourself with extra time, any extra credit item(s) that showcase your unique strengths would be awesome! 🙌
 
@@ -48,7 +56,7 @@ Given the time expectations of this exercise, we don't expect you to go all out,
 - Allow shipment list items to be reordered in the UI by making them draggable
 - Anything else you can think of!
 
-## Submitting the Assignment
+## Submitting Your Work
 
 When you have finished the exercise, please create a bundle of your work by running `npm run bundle` in the project root.
 

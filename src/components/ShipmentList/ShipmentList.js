@@ -6,10 +6,14 @@ function formatDate(dateStr) {
   return d.toLocaleString();
 }
 
-function ShipmentListItem({ shipment: { carrierScac, containerId, createdAt } }) {
+function ShipmentListItem({
+  shipment: { carrierScac, containerId, createdAt },
+}) {
   return (
     <li className="ShipmentListItem">
-      <p className="ShipmentListItem-title">{carrierScac} / {containerId}</p>
+      <p className="ShipmentListItem-title">
+        {carrierScac} / {containerId}
+      </p>
       <p>Created {formatDate(createdAt)}</p>
     </li>
   );
@@ -21,7 +25,10 @@ function ShipmentList({ shipments, onRefreshClick }) {
       <h1>Current Shipments</h1>
       <ul className="ShipmentList">
         {shipments.map((shipment) => (
-          <ShipmentListItem key={`shipment-${shipment.id}`} shipment={shipment} />
+          <ShipmentListItem
+            key={`shipment-${shipment.id}`}
+            shipment={shipment}
+          />
         ))}
       </ul>
       <button onClick={() => onRefreshClick()}>Refresh List</button>
