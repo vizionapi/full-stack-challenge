@@ -20,14 +20,14 @@ function ShipmentListItem({
   );
 }
 
-const ShipmentPropType = PropTypes.shape(PropTypes.shape({
+const ShipmentPropType = PropTypes.shape({
   id: PropTypes.string,
   containerId: PropTypes.string,
   carrierScac: PropTypes.string,
   isActive: PropTypes.bool,
   createdAt: PropTypes.string,
   updatedAt: PropTypes.string
-}));
+});
 
 ShipmentListItem.propTypes = {
   shipment: ShipmentPropType
