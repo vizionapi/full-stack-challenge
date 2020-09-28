@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import "./ShipmentList.css";
 
 function formatDate(dateStr) {
@@ -19,6 +20,19 @@ function ShipmentListItem({
   );
 }
 
+const ShipmentPropType = PropTypes.shape(PropTypes.shape({
+  id: PropTypes.string,
+  containerId: PropTypes.string,
+  carrierScac: PropTypes.string,
+  isActive: PropTypes.bool,
+  createdAt: PropTypes.string,
+  updatedAt: PropTypes.string
+}));
+
+ShipmentListItem.propTypes = {
+  shipment: ShipmentPropType
+}
+
 function ShipmentList({ shipments, onRefreshClick }) {
   return (
     <>
@@ -35,5 +49,10 @@ function ShipmentList({ shipments, onRefreshClick }) {
     </>
   );
 }
+
+ShipmentList.propTypes = {
+  shipments: PropTypes.arrayOf(ShipmentPropType),
+  onRefreshClick: PropTypes.func
+};
 
 export default ShipmentList;
